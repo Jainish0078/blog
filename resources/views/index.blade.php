@@ -93,7 +93,7 @@
 			</a>
 		</div>
 		<div class="card-body">
-		    <h4 class="card-title"><a href="single.html">Full Study Table Combo</a></h4>
+		    <h4 class="card-title"><a href="single.html">Jainish</a></h4>
 		    <ul class="list-inline product-meta">
 		    	<li class="list-inline-item">
 		    		<a href="single.html"><i class="fa fa-folder-open-o"></i>Furnitures</a>
