@@ -36,7 +36,7 @@
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg navbar-light navigation">
             <a class="navbar-brand" href="index">
-              <img src="{{ aaset('images/logo2.png')}}" alt="">Shree Hari Pavers
+              <img src="{{ asset('images/logo2.png')}}" alt="">Shree Hari Pavers
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
