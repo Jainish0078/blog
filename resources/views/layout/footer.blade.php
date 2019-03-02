@@ -101,7 +101,7 @@
   </footer>
 
   <!-- JAVASCRIPTS -->
-  <script src="{{ asset('plugins/jQuery/jquery.min.js')}}"></script>
+  <script src="{{ asset('plugins/jquery/jquery.min.js')}}"></script>
   <script src="{{ asset('plugins/bootstrap/js/popper.min.js')}}"></script>
   <script src="{{ asset('plugins/bootstrap/js/bootstrap.min.js')}}"></script>
   <script src="{{ asset('plugins/bootstrap/js/bootstrap-slider.js')}}"></script>
