@@ -206,7 +206,11 @@
 	</div>
 
 
-<!-- Container Start -->
+<!--===================================
+=            Clients Section        =
+====================================-->
+
+<section class="client-slider-03">
 <div class="container">
 	<div class="row">
 		<!-- Client Slider -->
@@ -303,7 +307,7 @@
 		</div>
 	</div>
 </div>
-
+</section>
 <!-- Container End -->
 
 @endsection
