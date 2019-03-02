@@ -24,7 +24,7 @@
   <link href="{{ asset('plugins/fancybox/jquery.fancybox.pack.css')}}" rel="stylesheet">
   <link href="{{ asset('plugins/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
   <!-- CUSTOM CSS -->
-  <link href="{{ aaset('css/style.css')}}" rel="stylesheet">
+  <link href="{{ asset('css/style.css')}}" rel="stylesheet">
 
 </head>
 
