@@ -66,7 +66,36 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
+            'education' => $data['education'],
+            'location' => $data['location'],
+            'notes' => $data['notes'],
+            'images' => $data['images'],
             'password' => Hash::make($data['password']),
         ]);
     }
+
+    /**
+     * Create a new user instance after a valid registration.
+     *
+     * @param  array  $data
+     * @return \App\User
+     */
+
+    public function update(array $data)
+    { 
+        return User::update([
+            'name'=> $data['name'],
+            'email'=> $data['email'],
+            'education' => $data['education'],
+            'location'=> $data['location'],
+            'notes'=> $data['notes'],
+            'education' => $data['education'],
+            'images' => $data['images'],
+
+            ]);
+            
+            return redirect()->back();
+    
+    }
+
 }
