@@ -11,7 +11,7 @@ class ReviewController extends Controller
     {   
         $review = Review::all();
         $category = Category::all();
-        return view('product')->with('categories','reviews', $review,  $category);
+        return view('product')->with( ['categories' => $category , 'reviews' => $review  ]);
     }
 
     public function store(Review $review, Request $request)

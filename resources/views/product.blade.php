@@ -43,17 +43,17 @@
                               <li class="list-inline-item text-center"><a class="fa fa-linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source="></a></li>
                           </ul>
                     </article>
+                    
                     <div class="block comment">
-
+                            <h4>Reviews</h4>
                             @foreach($reviews as $review)
 
-                              <td>{{$review->id}}</td>
-                              <td>{{$review->name}}</td>
-                              <td>{{$review->number}}</td>
-                              <td>{{$review->message}}</td>
+                              <li><h4>{{$review->name}} : {{$review->message}}</h4></li>
                               
                             @endforeach
 
+                            <br>
+                            <br>
 
 
                         <h4>Leave A Comment</h4>
