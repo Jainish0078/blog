@@ -13,26 +13,18 @@
   <!-- PLUGINS CSS STYLE -->
   <!-- <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap-slider.css">
+  <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap-slider.css')}}">
   <!-- Font Awesome -->
-  <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
   <!-- Owl Carousel -->
-  <link href="plugins/slick-carousel/slick/slick.css" rel="stylesheet">
-  <link href="plugins/slick-carousel/slick/slick-theme.css" rel="stylesheet">
+  <link href="{{ asset('plugins/slick-carousel/slick/slick.css')}}" rel="stylesheet">
+  <link href="{{ asset('plugins/slick-carousel/slick/slick-theme.css')}}" rel="stylesheet">
   <!-- Fancy Box -->
-  <link href="plugins/fancybox/jquery.fancybox.pack.css" rel="stylesheet">
-  <link href="plugins/jquery-nice-select/css/nice-select.css" rel="stylesheet">
+  <link href="{{ asset('plugins/fancybox/jquery.fancybox.pack.css')}}" rel="stylesheet">
+  <link href="{{ asset('plugins/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
   <!-- CUSTOM CSS -->
-  <link href="css/style.css" rel="stylesheet">
-
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
+  <link href="{{ aaset('css/style.css')}}" rel="stylesheet">
 
 </head>
 
@@ -44,7 +36,7 @@
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg navbar-light navigation">
             <a class="navbar-brand" href="index">
-              <img src="images/logo2.png" alt="">Shree Hari Pavers
+              <img src="{{ aaset('images/logo2.png')}}" alt="">Shree Hari Pavers
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

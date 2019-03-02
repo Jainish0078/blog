@@ -49,7 +49,7 @@
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
 				<a href="">
-					<img class="card-img-top img-fluid" src="images/products/products-1.jpg" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-1.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
@@ -86,7 +86,7 @@
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
 				<a href="">
-					<img class="card-img-top img-fluid" src="images/products/products-2.jpg" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-2.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
@@ -123,7 +123,7 @@
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
 				<a href="">
-					<img class="card-img-top img-fluid" src="images/products/products-3.jpg" alt="Card image cap">
+					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-3.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
@@ -221,34 +221,34 @@
 			<div class="item">
 				<a href="#">
 					<!-- Slider Image -->
-					<img src="images/eicher.png" alt="Eicher">
+					<img src="{{ asset('images/eicher.png')}}" alt="Eicher">
 					
 				</a>
 			</div>
 			<div class="item">
 				<a href="#">
 					<!-- Slider Image -->
-					<img src="images/bp.png" alt="Eicher">
+					<img src="{{ asset('images/bp.png')}}" alt="Eicher">
 
 				</a>
 			</div>
 			<div class="item">
 				<a href="#">
 					<!-- Slider Image -->
-					<img src="images/ioc.jpeg" alt="Eicher">
+					<img src="{{ asset('images/ioc.jpeg')}}" alt="Eicher">
 
 				</a>
 			</div>
 			<div class="item">
 				<a href="#">
 					<!-- Slider Image -->
-					<img src="images/reliance2.jpg" alt="Eicher">
+					<img src="{{ asset('images/reliance2.jpg')}}" alt="Eicher">
 				</a>
 			</div>
 			<div class="item">
 				<a href="#">
 					<!-- Slider Image -->
-					<img src="images/sky.png" alt="Eicher">
+					<img src="{{ asset('images/sky.png')}}" alt="Eicher">
 				
 				</a>
 			</div>
