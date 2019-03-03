@@ -126,7 +126,18 @@
             <li class="active"><a href="admin"><i class="fa fa-dashboard"></i> Dashboard</a></li>
             <li><a href="{{('inquiry')}}"><i class="fa fa-dashboard"></i> Inquiry</a></li>
             <li><a href="{{('review')}}"><i class="fa fa-dashboard"></i> Review</a></li>
-            <li><a href="{{('add-new-admin')}}"><i class="fa fa-user"></i> Add New Admin</a></li>
+            <li class="treeview">
+              <a href="#">
+                <i class="fa fa-user"></i> <span>Admin</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-left pull-right"></i>
+                </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="{{('add-new-admin')}}"><i class="fa fa-plus"></i> Add New Admin</a></li>
+                <li><a href="{{('list-admin')}}"><i class="fa fa-list"></i> List Admin</a></li>
+              </ul>
+          </li>
             <li><a href="{{('profile')}}"><i class="fa fa-user"></i> Profile</a></li>
           </ul>
         </section>
