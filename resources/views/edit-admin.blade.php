@@ -91,7 +91,7 @@
                       <button type="submit" class="btn btn-danger">Submit</button>
                     </div>
                   </div>
-                {{ Form::close() }}
+                </form>
               </div>
               <!-- /.tab-pane -->
             </div>
