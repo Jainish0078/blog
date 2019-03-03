@@ -25,7 +25,7 @@
           <!-- Profile Image -->
           <div class="box box-primary">
             <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="{{ asset('dist/img/user4-128x128.jpg')}}" alt="User profile picture">
+              <img class="profile-user-img img-responsive img-circle" src="{{ asset('storage/profile_images/' .Auth::user()->images) }}" alt="User profile picture">
 
               <h3 class="profile-username text-center">{{Auth::user()->name}}</h3>
               <p class="text-muted text-center">{{Auth::user()->email}}</p>
@@ -74,7 +74,7 @@
             </ul>
             <div class="tab-content">
            
-            <form method="POST" action="{{route('profile.update',Auth::id())}}" class="form-horizontal">
+            <form enctype="multipart/form-data" method="POST" action="{{route('profile.update',Auth::id())}}" class="form-horizontal">
             <input type="hidden" name="user_id" value="{{Auth::id()}}">
                @method('patch')
                 @csrf
@@ -116,15 +116,14 @@
                       <input type="text" name="notes" value="{{Auth::user()->notes}}" class="form-control" id="inputSkills" placeholder="Notes">
                     </div>
                   </div>
+                  
                   <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                      <div class="checkbox">
-                        <label>
-                          <input type="checkbox"> I agree to the terms and conditions
-                        </label>
-                      </div>
+                    <label for="image" class="col-sm-2 control-label">Image</label>
+                    <div class="col-sm-10">
+                    <input type="file" name="image" value="{{Auth::user()->images}}">
                     </div>
                   </div>
+
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <button type="submit" class="btn btn-danger">Submit</button>

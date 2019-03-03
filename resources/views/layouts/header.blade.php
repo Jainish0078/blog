@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Shree Hari Pavers | Dashboard</title>
+  <title>@yield('title') | Shree Hari Pavers</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -59,13 +59,13 @@
               <!-- User Account: style can be found in dropdown.less -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="{{Auth::user()->image}}" class="user-image" alt="User Image">
+                  <img src="{{ asset('storage/profile_images/' .Auth::user()->images) }}" class="user-image" alt="User Image">
                   <span class="hidden-xs">{{Auth::user()->name}}</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
-                    <img src="{{ asset('dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
+                    <img src="{{ asset('storage/profile_images/' .Auth::user()->images) }}"  class="img-circle" alt="User Image">
     
                     <p>
                       {{Auth::user()->name}}
@@ -102,7 +102,7 @@
           <!-- Sidebar user panel -->
           <div class="user-panel">
             <div class="pull-left image">
-              <img src="{{ asset('dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
+              <img src="{{ asset('storage/profile_images/' .Auth::user()->images) }}" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
               <p>{{Auth::user()->name}}</p>
@@ -123,9 +123,9 @@
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu" data-widget="tree">
             <li class="header">MAIN NAVIGATION</li>
-            <li class="active"><a href="admin"><i class="fa fa-dashboard"></i> Dashboard</a></li>
-            <li><a href="{{('inquiry')}}"><i class="fa fa-dashboard"></i> Inquiry</a></li>
-            <li><a href="{{('review')}}"><i class="fa fa-dashboard"></i> Review</a></li>
+            <li class="active"><a href="{{ asset('admin')}}"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="{{ asset('inquiry')}}"><i class="fa fa-dashboard"></i> Inquiry</a></li>
+            <li><a href="{{ asset('review')}}"><i class="fa fa-dashboard"></i> Review</a></li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-user"></i> <span>Admin</span>
@@ -134,11 +134,11 @@
                 </span>
               </a>
               <ul class="treeview-menu">
-                <li><a href="{{('add-new-admin')}}"><i class="fa fa-plus"></i> Add New Admin</a></li>
-                <li><a href="{{('list-admin')}}"><i class="fa fa-list"></i> List Admin</a></li>
+                <li><a href="{{ asset('add-new-admin')}}"><i class="fa fa-plus"></i> Add New Admin</a></li>
+                <li><a href="{{ asset('list-admin')}}"><i class="fa fa-list"></i> List Admin</a></li>
               </ul>
           </li>
-            <li><a href="{{('profile')}}"><i class="fa fa-user"></i> Profile</a></li>
+            <li><a href="{{ asset('profile')}}"><i class="fa fa-user"></i> Profile</a></li>
           </ul>
         </section>
         <!-- /.sidebar -->

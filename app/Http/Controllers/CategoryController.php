@@ -50,6 +50,8 @@ class CategoryController extends Controller
 
     public function updateadmin(Request $request,User $user)
     {
+        
+
         $user->update([
             'name'=> $request->name,
             'email'=> $request->email,
@@ -57,15 +59,24 @@ class CategoryController extends Controller
             'education' => $request->education,
             'location'=> $request->location,
             'notes'=> $request->notes,
-            
+            'images' => $filename,
+             
             ]);
             
             $user->save();
             return redirect('list-admin');
     }
 
-    public function update(Request $request,User $user)
+    public function update(Request $request, User $user)
     { 
+        $filename = null;
+		if($request->file('image')) 
+            { 
+                $file = $request->file('image');
+                $filename = str_replace(' ', '_', time(). '_' .$file->getClientOriginalName());
+                $file->storeAs('public/profile_images', $filename);
+                
+            }
        
          $user->update([
             'name'=> $request->name,
@@ -73,6 +84,7 @@ class CategoryController extends Controller
             'education' => $request->education,
             'location'=> $request->location,
             'notes'=> $request->notes,
+            'images'=> $filename,
             
             ]);
             
