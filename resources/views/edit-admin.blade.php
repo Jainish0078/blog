@@ -37,7 +37,8 @@
             </ul>
             <div class="tab-content">
            <div class="form-horizontal">
-        {!! Form::model($users, ['route' => ['user-update', $users->id]]) !!}
+           <form method="POST" action="{{route('user-update', $users->id)}}" class="form-horizontal">
+            
             @method('patch')
               @csrf
                   <div class="form-group">
