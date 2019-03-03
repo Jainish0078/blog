@@ -17,7 +17,7 @@ class CreateInquiriesTable extends Migration
             $table->increments('id');
             $table->string('name')->nullable();
             $table->string('email')->unique()->nullable();
-            $table->integer('mobile')->nullable();
+            $table->text('mobile')->nullable();
             $table->text('message')->nullable();
             $table->timestamps();
         });

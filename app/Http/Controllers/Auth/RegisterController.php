@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use App\Category;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -70,6 +71,11 @@ class RegisterController extends Controller
         ]);
     }
 
+
+    public function view()
+    {
+        return view('profile');
+    }
     /**
      * Create a new user instance after a valid registration.
      *
@@ -77,21 +83,6 @@ class RegisterController extends Controller
      * @return \App\User
      */
 
-    public function update(array $data)
-    { 
-        return User::update([
-            'name'=> $data['name'],
-            'email'=> $data['email'],
-            'education' => $data['education'],
-            'location'=> $data['location'],
-            'notes'=> $data['notes'],
-            'education' => $data['education'],
-            'images' => $data['images'],
-
-            ]);
-            
-            return redirect()->back();
     
-    }
 
 }

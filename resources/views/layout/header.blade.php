@@ -15,6 +15,7 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap-slider.css')}}">
+  <link rel="stylesheet" href="{{ asset('//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')}}">
   <!-- Font Awesome -->
   <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
   <!-- Owl Carousel -->
@@ -44,15 +45,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto main-nav ">
-                
-              @foreach($categories as $category)
                 <li class="nav-item">
-                  <a class="nav-link" href="{{$category->url}}">{{$category->name}}</a>
+                  <a class="nav-link" href="{{ asset('rubber-mold-pavers')}}">Rubber Mold Block</a>
                 </li>
-              @endforeach
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ asset('curb-stone')}}">Curb Stone</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{ asset('rcc-pipe')}}">RCC Pipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ asset('cover-block')}}">Cover Block</a>
+                      </li>
               </ul>
-              <ul class="navbar-nav ml-auto mt-10">
-                
+              {{-- <ul class="navbar-nav ml-auto mt-10">
                 <!-- Login -->
                 @guest
                   <li class="nav-item">
@@ -77,9 +83,7 @@
                           </form>
                       </div>
                   </li>
-                @endguest
-                
-                
+                @endguest --}}
               </ul>
             </div>
           </nav>

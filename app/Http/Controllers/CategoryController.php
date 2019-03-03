@@ -3,14 +3,82 @@
 namespace App\Http\Controllers;
 use App\Category;
 use App\Inquiry;
+use App\User;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 
 
 class CategoryController extends Controller
 {   
-    public function routelist()
+    
+    public function view(Category $category)
     {
+        $category = Category::all();
+        return view('profile')->with('categories', $category);
+    }
+
+    public function adminadd()
+    {   
+        return view('add-new-admin');
+    }
+    public function adminstore(Request $request,User $user)
+    {
+        $user = new User([
+            'name' => $request->name,
+            'email'  => $request->email,
+            'password' => Hash::make($request->password),
+            'location'  => $request->location,
+            'education'  => $request->education,
+            'notes'  => $request->notes,
+        ]);
+        $user->save();
+        
+        return redirect('admin');
+    }
+    
+    public function listadmin(User $user)
+    {
+        $user = User::all();
+        return view('list-admin')->with('users', $user);
+    }
+
+    public function editadmin(User $user)
+    {
+        $user['user'] = User::find($user->id);
+        return view('edit-admin')->with('users', $user);
+    }
+
+    public function updateadmin(Request $request,User $user)
+    {
+        $user->update([
+            'name'=> $request->name,
+            'email'=> $request->email,
+            'password'=> $request->password,            
+            'education' => $request->education,
+            'location'=> $request->location,
+            'notes'=> $request->notes,
+            
+            ]);
+            
+            $user->save();
+            return redirect('list-admin');
+    }
+
+    public function update(Request $request,User $user)
+    { 
        
+         $user->update([
+            'name'=> $request->name,
+            'email'=> $request->email,
+            'education' => $request->education,
+            'location'=> $request->location,
+            'notes'=> $request->notes,
+            
+            ]);
+            
+            // $user->save();
+            return redirect()->back();
+    
     }
 
     public function index(Category $category)
@@ -83,6 +151,13 @@ class CategoryController extends Controller
     public function destroy(Category $category)
     {
         $category->delete();
+
+        return redirect()->back(); 
+    }
+
+    public function destroyadmin(User $user)
+    {
+        $user->delete();
 
         return redirect()->back(); 
     }

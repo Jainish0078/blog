@@ -73,8 +73,10 @@
               <li><a>Settings</a></li>
             </ul>
             <div class="tab-content">
-              
-            <form method="POST" action="{{route('profile')}}" class="form-horizontal">
+           
+            <form method="POST" action="{{route('profile.update',Auth::id())}}" class="form-horizontal">
+            <input type="hidden" name="user_id" value="{{Auth::id()}}">
+               @method('patch')
                 @csrf
                   <div class="form-group">
                     <label for="name" class="col-sm-2 control-label">Name</label>
@@ -88,7 +90,7 @@
                     <label for="email" class="col-sm-2 control-label">Email</label>
 
                     <div class="col-sm-10">
-                      <input type="email" name="eamil" value="{{Auth::user()->email}}" class="form-control" id="inputEmail" placeholder="Email">
+                      <input type="email" name="email" value="{{Auth::user()->email}}" class="form-control" id="inputEmail" placeholder="Email">
                     </div>
                   </div>
 
@@ -104,7 +106,7 @@
                     <label for="location" class="col-sm-2 control-label">Location</label>
 
                     <div class="col-sm-10">
-                      <textarea class="form-control" name="location" value="{{Auth::user()->location}}" id="inputExperience" placeholder="Location"></textarea>
+                      <input class="form-control" name="location" value="{{Auth::user()->location}}" id="inputExperience" placeholder="Location"></textarea>
                     </div>
                   </div>
                   <div class="form-group">

@@ -1,5 +1,7 @@
 @extends('layouts.master')
 
+@section('title', 'List of Admins')
+
 @section('content')
 
  <!-- Content Wrapper. Contains page content -->
@@ -7,11 +9,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-            List Category
+            Review List
             </h1>
           <ol class="breadcrumb">
             <li><a href="admin"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">List Category</li>
+            <li class="active">Review List</li>
           </ol>
         </section>
     
@@ -19,10 +21,10 @@
         <section class="content">
           <!-- /.row -->
           <div class="row">
-            <div class="col-xs-6">
+            <div class="col-md-12">
               <div class="box">
                 <div class="box-header">
-                  <h3 class="box-title">Responsive Hover Table</h3>
+                  <h3 class="box-title"></h3>
     
                   <div class="box-tools">
                     <div class="input-group input-group-sm" style="width: 150px;">
@@ -30,7 +32,7 @@
     
                       <div class="input-group-btn">
                         <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                        <a href="add-category" type="button" class="btn btn-default"><i class="fa fa-plus"></i></a>
+                      <a href="{{url('add-new-admin')}}" type="button" class="btn btn-default"><i class="fa fa-plus"></i></a>
                         </div>
                     </div>
                   </div>
@@ -41,23 +43,27 @@
                     <tr>
                       <th>ID</th>
                       <th>Name</th>
-                      <th>Url</th>
-                      <th>Url</th>
+                      <th>Mobile</th>
+                      <th>Message</th>
                       <th>Status</th>
-                      <th>Delete</th>
+                      <th>Action</th>
                     </tr>
 
-                    @foreach($categories as $category)
+                    @foreach($users as $user)
 
                     <tr>
-                      <td>{{$category->id}}</td>
-                      <td>{{$category->name}}</td>
-                      <td>{{$category->url}}</td>
-                      <td>{{$category->url}}</td>
+                      <td>{{$user->id}}</td>
+                      <td>{{$user->name}}</td>
+                      <td>{{$user->email}}</td>
+                      <td>{{$user->education}}</td>
+                      <td>{{$user->location}}</td>
+                      <td>{{$user->notes}}</td>
                       <td><span class="label label-success">Active</span></td>
-                      <td><a href= {{action('CategoryController@destroy', $category->id)}} class="fa fa-trash-o"></a></td>
+                      <td><a href= {{action('CategoryController@editadmin', $user->id)}} class="fa fa-pencil"></a>
+                      <a href= {{action('CategoryController@destroyadmin', $user->id)}} class="fa fa-trash-o"></a>
+                      </td>
                     </tr>
-                    @endforeach 
+                    @endforeach
                   </table>
                 </div>
                 <!-- /.box-body -->

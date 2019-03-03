@@ -35,8 +35,8 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
-						<h2>Trending Ads</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magnam.</p>
+						<h2>Products</h2>
+						<p>Shree Hari Pavers is a reliable manufacturer, supplier and exporter of Pipe & Paver Blocks.</p>
 					</div>
 				</div>
 			</div>
@@ -48,12 +48,12 @@
 		<div class="card">
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
-				<a href="">
+				<a href="{{ asset('rubber-mold-pavers')}}">
 					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-1.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
-				<h4 class="card-title"><a href="">11inch Macbook Air</a></h4>
+				<h4 class="card-title"><a href="">Jambo Block</a></h4>
 				<ul class="list-inline product-meta">
 					<li class="list-inline-item">
 						<a href=""><i class="fa fa-folder-open-o"></i>Electronics</a>
@@ -85,12 +85,12 @@
 		<div class="card">
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
-				<a href="">
+				<a href="{{ asset('rubber-mold-pavers')}}">
 					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-2.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
-				<h4 class="card-title"><a href="">Full Study Table Combo</a></h4>
+				<h4 class="card-title"><a href="">Zig Zag Block</a></h4>
 				<ul class="list-inline product-meta">
 					<li class="list-inline-item">
 						<a href=""><i class="fa fa-folder-open-o"></i>Furnitures</a>
@@ -122,12 +122,12 @@
 		<div class="card">
 			<div class="thumb-content">
 				<!-- <div class="price">$200</div> -->
-				<a href="">
+				<a href="{{ asset('rubber-mold-pavers')}}">
 					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-3.jpg')}}" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card-body">
-				<h4 class="card-title"><a href="">11inch Macbook Air</a></h4>
+				<h4 class="card-title"><a href="">RCC Pipe</a></h4>
 				<ul class="list-inline product-meta">
 					<li class="list-inline-item">
 						<a href=""><i class="fa fa-folder-open-o"></i>Electronics</a>
@@ -158,14 +158,13 @@
 			</div>
 		</div>
 	</section>
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
 					<div class="contact-us-content p-4">
 						<h5>Contact Us</h5>
-						<h1 class="pt-3">Hello, what's on your mind?</h1>
-						<p class="pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit dolor, blandit vel euismod ac, lentesque et dolor. Ut id tempus ipsum.</p>
+						<h1 class="pt-3">Send your Mobile number</h1>
+						<p class="pt-3 pb-5">Enter your Contact number here, our Sales represantative will contact you as soon as possible.</p>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -177,10 +176,10 @@
 										<div class="col-lg-6 py-2">
 											<input type="text" placeholder="Name *" name="name" class="form-control" required>
 										</div>
-										<div class="col-lg-6 pt-2">
+										<div class="col-lg-6 py-2">
 											<input type="text" placeholder="Mobile *" name="mobile" class="form-control" required>
 										</div>
-										<div class="col-lg-12">
+										<div class="col-lg-12 py-2">
 												<input type="email" placeholder="Email *" name="email" class="form-control" required>
 											</div>
 									</div>
@@ -196,118 +195,5 @@
 			</div>
 		</div>
 	<!-- contact us end -->
-	
-	
-	<div class="col-md-12">
-		<div class="section-title">
-			<h2>Reputed Clients</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magnam.</p>
-		</div>
-	</div>
-
-
-<!--===================================
-=            Clients Section        =
-====================================-->
-
-<section class="client-slider-03">
-<div class="container">
-	<div class="row">
-		<!-- Client Slider -->
-		<div class="col-md-12">
-			<!-- Client Slider -->
-		<div class="category-slider">
-			<!-- Client 01 -->
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<img src="{{ asset('images/eicher.png')}}" alt="Eicher">
-					
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<img src="{{ asset('images/bp.png')}}" alt="Eicher">
-
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<img src="{{ asset('images/ioc.jpeg')}}" alt="Eicher">
-
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<img src="{{ asset('images/reliance2.jpg')}}" alt="Eicher">
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<img src="{{ asset('images/sky.png')}}" alt="Eicher">
-				
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-film"></i>
-					<h4>Gym</h4>
-				</a>
-			</div>
-			<!-- Client 01 -->
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-paragraph"></i>
-					<h4>Park</h4>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-play"></i>
-					<h4>Play</h4>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-building"></i>
-					<h4>Real Estate</h4>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-shopping-bag"></i>
-					<h4>Shopping</h4>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-bed"></i>
-					<h4>Electronics</h4>
-				</a>
-			</div>
-			<div class="item">
-				<a href="#">
-					<!-- Slider Image -->
-					<i class="fa fa-bed"></i>
-					<h4>Health</h4>
-				</a>
-			</div>
-			
-		</div>
-		</div>
-	</div>
-</div>
-</section>
-<!-- Container End -->
 
 @endsection

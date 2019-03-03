@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@Section('title' , 'Prouct')
+@Section('title' , 'Cover Block')
 
 @section('content')
 
@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1 col-lg-9 offset-lg-0">
                     <article class="single-post">
-                        <h2>Jumbo/Colorodo</h2>
+                        <h2>Cover Block</h2>
                         <div class="product-ratings">
                                 <ul class="list-inline">
                                     <li class="float-right" class="list-inline-item selected"><i class="fa fa-star"></i></li>
@@ -47,9 +47,9 @@
                     <div class="block comment">
                             <h4>Reviews</h4>
                             @foreach($reviews as $review)
-
-                              <li><h4>{{$review->name}} : {{$review->message}}</h4></li>
-                              
+                            @if($review->is_approved == 1)
+                              <li>{{$review->name}} : {{$review->message}}</li>
+                             @endif 
                             @endforeach
 
                             <br>
@@ -57,7 +57,7 @@
 
 
                         <h4>Leave A Comment</h4>
-                        <form method="POST" action="{{route('review')}}">
+                        <form method="POST" action="{{route('coverblock')}}">
                             @csrf
                             <!-- Message -->
                             <div class="form-group mb-30">
@@ -90,16 +90,16 @@
                         
                         <!-- Category Widget -->
                         <div class="widget category">
-                            <!-- Widget Header -->
-                            <h5 class="widget-header">Categories</h5>
-                            <ul class="category-list">
-                                <li><a href="bricks">Bricks <span class="float-right"></span></a></li>
-                                <li><a href="zigzag-paver">Zig zag <span class="float-right"></span></a></li>
-                                <li><a href="i-paver">i Paver<span class="float-right"></span></a></li>
-                                <li><a href="jumbo-paver">Jambo Paver<span class="float-right"></span></a></li>
-                                <li><a href="curb-stone">Curb Stone<span class="float-right"></span></a></li>
-                            </ul>
-                        </div>
+                                <!-- Widget Header -->
+                                <h5 class="widget-header">Categories</h5>
+                                <ul class="category-list">
+                                    <li><a href="{{ asset('bricks')}}">Bricks <span class="float-right"></span></a></li>
+                                    <li><a href="{{ asset('rcc-pipe')}}">rcc-pipe <span class="float-right"></span></a></li>
+                                    <li><a href="{{ asset('curb-stone')}}">Curb Stone<span class="float-right"></span></a></li>
+                                    <li><a href="{{ asset('zigzag-paver')}}">Zig Zag Pavers<span class="float-right"></span></a></li>
+                                    <li><a href="{{ asset('cover-block')}}">Cover Block<span class="float-right"></span></a></li>
+                                </ul>
+                            </div>
                         <!-- Store Widget -->
                         
                         <!-- Archive Widget -->
@@ -119,122 +119,17 @@
                             </p>
                             </ul>
                         </div>
+                        <div class="widget user text-center">
+						<img class="rounded-circle img-fluid mb-5 px-5" src="images/user/user-thumb.jpg" alt="">
+						<h4><a href="">Jagdish Bhuva</a></h4>
+						<p class="member-time">Owner of Shree Hari Pavers</p>
+						<ul class="list-inline mt-20">
+							<li class="list-inline-item"><a href="tel:7227878777" class="btn btn-contact d-inline-block  btn-primary px-lg-5 my-1 px-md-3">Contact</a></li>
+                        </ul>
+					</div>
                     </div>
                 </div>
             </div>
         </div>
-  
-        <!-- Reputed Clients-->
-
-        <div class="col-md-12">
-                <div class="section-title">
-                    <h2>Reputed Clients</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magnam.</p>
-                </div>
-            </div>
-        
-        
-        <!-- Container Start -->
-        <div class="container">
-            <div class="row">
-                <!-- Client Slider -->
-                <div class="col-md-12">
-                    <!-- Client Slider -->
-                <div class="category-slider">
-                    <!-- Client 01 -->
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <img src="images/eicher.png" alt="Eicher">
-                            
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <img src="images/bp.png" alt="Eicher">
-        
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <img src="images/ioc.jpeg" alt="Eicher">
-        
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <img src="images/reliance2.jpg" alt="Eicher">
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <img src="images/sky.png" alt="Eicher">
-                        
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-film"></i>
-                            <h4>Gym</h4>
-                        </a>
-                    </div>
-                    <!-- Client 01 -->
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-paragraph"></i>
-                            <h4>Park</h4>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-play"></i>
-                            <h4>Play</h4>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-building"></i>
-                            <h4>Real Estate</h4>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-shopping-bag"></i>
-                            <h4>Shopping</h4>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-bed"></i>
-                            <h4>Electronics</h4>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="#">
-                            <!-- Slider Image -->
-                            <i class="fa fa-bed"></i>
-                            <h4>Health</h4>
-                        </a>
-                    </div>
-                    
-                </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Reputed Clients -->
-
-
-
     </section>
-
 @endsection
