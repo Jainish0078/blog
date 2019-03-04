@@ -6,7 +6,7 @@
 <div class="col-md-12">
     <div class="section-title">
         <h2>Reputed Clients</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, magnam.</p>
+        <p>we have done work with</p>
     </div>
 </div>
 
@@ -63,8 +63,8 @@
       </div>
     </div>
     </section>
-    <br>
-<br>
+  <br>
+  <br>
     <!-- Container End -->
 <!--============================
 =            Footer            =
