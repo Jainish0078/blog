@@ -63,6 +63,8 @@
       </div>
     </div>
     </section>
+    <br>
+<br>
     <!-- Container End -->
 <!--============================
 =            Footer            =
@@ -89,7 +91,7 @@
           <div class="block">
             <h4>Services</h4>
             <ul>
-              <li><a href="{{ asset('paver-block')}}">Paver  Block</a></li>
+              <li><a href="{{ asset('blog')}}">Blog</a></li>
               <li><a href="{{ asset('rcc-pipe')}}">RCC Pipe</a></li>
               <li><a href="{{ asset('manhole')}}">Manhole</a></li>
               <li><a href="{{ asset('cover-block')}}">Cover Block</a></li>

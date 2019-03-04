@@ -68,6 +68,26 @@ class ReviewController extends Controller
         return view('cover-block')->with('reviews', $review);
     }
 
+    public function manholepost(Request $request, Review $review)
+    {
+        $review = new Review([
+            'message' => $request->message,
+            'name' => $request->name,
+            'number' => $request->number,
+            'is_approved' => $request->is_approved=0,
+            
+        ]);
+            $review->save();
+            
+        return redirect()->back();
+    }
+
+    public function manholeview(Review $review)
+    {
+        $review = Review::all();
+        return view('manhole')->with('reviews', $review);
+    }
+
     public function curbstonepost(Request $request, Review $review)
     {
         $review = new Review([

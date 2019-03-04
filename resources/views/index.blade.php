@@ -31,7 +31,9 @@
 ============================================-->
 
 <section class="popular-deals section bg-gray">
-		<div class="container">
+		<br>
+		<br>
+	<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-title">
@@ -42,119 +44,140 @@
 			</div>
 			<div class="row">
 				<!-- offer 01 -->
-				<div class="col-sm-12 col-lg-4">
-					<!-- product card -->
-	<div class="product-item bg-light">
-		<div class="card">
-			<div class="thumb-content">
-				<!-- <div class="price">$200</div> -->
-				<a href="{{ asset('rubber-mold-pavers')}}">
-					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-1.jpg')}}" alt="Card image cap">
-				</a>
-			</div>
-			<div class="card-body">
-				<h4 class="card-title"><a href="">Jambo Block</a></h4>
-				<ul class="list-inline product-meta">
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-folder-open-o"></i>Electronics</a>
-					</li>
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-calendar"></i>26th December</a>
-					</li>
-				</ul>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-				<div class="product-ratings">
-					<ul class="list-inline">
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item"><i class="fa fa-star"></i></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+						<div class="col-lg-12">
+								<div class="trending-ads-slide">
+									
+									<div class="col-sm-12 col-lg-4">
+										
+										<!-- product card -->
+										<div class="product-item bg-light">
+											<div class="card">
+												<div class="thumb-content">
+													<!-- <div class="price">$200</div> -->
+													<a href="{{ asset('square')}}">
+														<img class="card-img-top img-fluid" src="{{ asset('images/products/products-1.jpg')}}" alt="square">
+													</a>
+												</div>
+												<div class="card-body">
+													<h4 class="card-title"><a href="">Square Block</a></h4>
+													<ul class="list-inline product-meta">
+														<li class="list-inline-item">
+															<a href=""><i class="fa fa-folder-open-o"></i>60 MM</a>
+														</li>
+													</ul>
+													<p class="card-text">Use : Parking, Party Plot, Societies, etc.</p>
+													<div class="product-ratings">
+														<ul class="list-inline">
+															<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+															<li class="list-inline-item"><i class="fa fa-star"></i></li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										</div>
+
+										<div class="col-sm-12 col-lg-4">
+											<!-- product card -->
+											<div class="product-item bg-light">
+												<div class="card">
+													<div class="thumb-content">
+														<!-- <div class="price">$200</div> -->
+														<a href="{{ asset('cover-block')}}">
+															<img class="card-img-top img-fluid" src="{{ asset('images/products/2.jpg')}}" alt="Card image cap">
+														</a>
+													</div>
+													<div class="card-body">
+														<h4 class="card-title"><a href="">Cover Block</a></h4>
+														<ul class="list-inline product-meta">
+															<li class="list-inline-item">
+																<a href=""><i class="fa fa-folder-open-o"></i>Size: 20,25,40,45 mm</a>
+															</li>
+														</ul>
+														<p class="card-text">Use : When you built your terrace</p>
+														<div class="product-ratings">
+															<ul class="list-inline">
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="col-sm-12 col-lg-4">
+												<!-- product card -->
+												<div class="product-item bg-light">
+													<div class="card">
+														<div class="thumb-content">
+															<!-- <div class="price">$200</div> -->
+															<a href="{{ asset('rubber-mold-pavers')}}">
+																<img class="card-img-top img-fluid" src="{{ asset('images/products/products-2.jpg')}}" alt="Card image cap">
+															</a>
+														</div>
+														<div class="card-body">
+															<h4 class="card-title"><a href="">Rubbuer Mold Pavers</a></h4>
+															<ul class="list-inline product-meta">
+																<li class="list-inline-item">
+																	<a href=""><i class="fa fa-folder-open-o"></i>Size: 20,25,40,45 mm</a>
+																</li>
+															</ul>
+															<p class="card-text">Use : Footpath, Societies, Bunglows </p>
+															<div class="product-ratings">
+																<ul class="list-inline">
+																	<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																	<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																	<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																	<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																	<li class="list-inline-item"><i class="fa fa-star"></i></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+										</div>
+
+										<div class="col-sm-12 col-lg-4">
+											<!-- product card -->
+											<div class="product-item bg-light">
+												<div class="card">
+													<div class="thumb-content">
+														<!-- <div class="price">$200</div> -->
+														<a href="{{ asset('rcc-pipe')}}">
+															<img class="card-img-top img-fluid" src="{{ asset('images/products/6.jpg')}}" alt="Card image cap">
+														</a>
+													</div>
+													<div class="card-body">
+														<h4 class="card-title"><a href="">RCC Pipe</a></h4>
+														<ul class="list-inline product-meta">
+															<li class="list-inline-item">
+																<a href=""><i class="fa fa-folder-open-o"></i>Electronics</a>
+															</li>
 	
-	
-	
-				</div>
-				<div class="col-sm-12 col-lg-4">
-					<!-- product card -->
-	<div class="product-item bg-light">
-		<div class="card">
-			<div class="thumb-content">
-				<!-- <div class="price">$200</div> -->
-				<a href="{{ asset('rubber-mold-pavers')}}">
-					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-2.jpg')}}" alt="Card image cap">
-				</a>
-			</div>
-			<div class="card-body">
-				<h4 class="card-title"><a href="">Zig Zag Block</a></h4>
-				<ul class="list-inline product-meta">
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-folder-open-o"></i>Furnitures</a>
-					</li>
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-calendar"></i>26th December</a>
-					</li>
-				</ul>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-				<div class="product-ratings">
-					<ul class="list-inline">
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item"><i class="fa fa-star"></i></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
-				</div>
-				<div class="col-sm-12 col-lg-4">
-					<!-- product card -->
-	<div class="product-item bg-light">
-		<div class="card">
-			<div class="thumb-content">
-				<!-- <div class="price">$200</div> -->
-				<a href="{{ asset('rubber-mold-pavers')}}">
-					<img class="card-img-top img-fluid" src="{{ asset('images/products/products-3.jpg')}}" alt="Card image cap">
-				</a>
-			</div>
-			<div class="card-body">
-				<h4 class="card-title"><a href="">RCC Pipe</a></h4>
-				<ul class="list-inline product-meta">
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-folder-open-o"></i>Electronics</a>
-					</li>
-					<li class="list-inline-item">
-						<a href=""><i class="fa fa-calendar"></i>26th December</a>
-					</li>
-				</ul>
-				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, aliquam!</p>
-				<div class="product-ratings">
-					<ul class="list-inline">
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
-						<li class="list-inline-item"><i class="fa fa-star"></i></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
-				</div>
-				
-				
+														</ul>
+														<p class="card-text">Use : in Sewerage, in PipeLine and everthing.</p>
+														<div class="product-ratings">
+															<ul class="list-inline">
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item selected"><i class="fa fa-star"></i></li>
+																<li class="list-inline-item"><i class="fa fa-star"></i></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+								</div>
+						</div>
 			</div>
 		</div>
 	</section>

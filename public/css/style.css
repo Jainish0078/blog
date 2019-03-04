@@ -350,7 +350,7 @@ button {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 .section-sm {
@@ -669,7 +669,7 @@ ul.pagination .active a {
 }
 
 .bg-1 {
-  background: url("../images/home/hero.jpg");
+  background: #F5F5F5;
   background-size: cover;
   background-repeat: no-repeat;
 }

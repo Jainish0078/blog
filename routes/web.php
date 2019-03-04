@@ -32,7 +32,12 @@ Route::post('/cover-block', 'ReviewController@coverblockpost')->name('coverblock
 Route::get('/curb-stone', 'ReviewController@curbstoneview');
 Route::post('/curb-stone', 'ReviewController@curbstonepost')->name('curbstone');
 
+Route::get('/manhole', 'ReviewController@manholeview');
+Route::post('/manhole', 'ReviewController@manholepost')->name('manhole');
 
+
+Route::get('blog', function() {return view('blog'); });
+Route::get('about-us', function() {return view('about-us'); });
 
 
 Auth::routes();

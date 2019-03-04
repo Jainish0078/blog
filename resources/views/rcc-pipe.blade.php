@@ -29,10 +29,10 @@
                             <li class="list-inline-item">Size: <strong>100 sq.feet</strong></li>
                             <li class="list-inline-item">Thickness: <strong> 60 mm</strong></li>
                         </ul>
-                        <img src="images/products/1.jpg" alt="article-01">
+                        <img src="{{ asset('images/products/5.JPG')}}" alt="article-01">
                         <p>we produce stunning blocks pavers for drive ways, gardens or any given areas with high quality range of splended paver block products with diffrent colours, best finishing and sizes, we give cost effective paving premium products for gardening, land scaping and other projects.</p> 
                         
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p>We are Manufacturer of Paver Block, Interlocking Paver Block, Concrete Paver Block, Parking Tile, Rubber Moulded Paver Block, And Hallow Brick</p>
     
                         <p>Our unit is located in Botad-Bhavnagar Road, Lathidad area is situated at 3 km away from Salangpur (Hanumanji). River Bhogawo as just 40 km away from our unit and shayla is 30 km away which is well-known for stone chips and raw material .</p>
                         <ul class="social-circle-icons list-inline">
@@ -84,43 +84,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-10 offset-md-1 col-lg-3 offset-lg-0">
-                    <div class="sidebar">
-                        <!-- Search Widget -->
-                        
-                        <!-- Category Widget -->
-                        <div class="widget category">
-                                <!-- Widget Header -->
-                                <h5 class="widget-header">Categories</h5>
-                                <ul class="category-list">
-                                    <li><a href="{{ asset('bricks')}}">Bricks <span class="float-right"></span></a></li>
-                                    <li><a href="{{ asset('rcc-pipe')}}">rcc-pipe <span class="float-right"></span></a></li>
-                                    <li><a href="{{ asset('curb-stone')}}">Curb Stone<span class="float-right"></span></a></li>
-                                    <li><a href="{{ asset('zigzag-paver')}}">Zig Zag Pavers<span class="float-right"></span></a></li>
-                                    <li><a href="{{ asset('cover-block')}}">Cover Block<span class="float-right"></span></a></li>
-                                </ul>
-                            </div>
-                        <!-- Store Widget -->
-                        
-                        <!-- Archive Widget -->
-                        <div class="widget archive">
-                            <!-- Widget Header -->
-                            <h5 class="widget-header">Contact us</h5>
-                            <ul class="archive-list">
-                            <p><strong>Address:</strong> 
-                                <br>Shree Hari Pavers,
-                                <br>Lathidad-Botad Road,
-                                <br>To.Lathidad Dist.Botad.
-                            </p>
-                            <p><strong>Call us on:</strong> 
-                                <br>Jagdish Bhuva - <a href="tel:9924773844">9924773844</a>
-                                <br> Sanjay Patel - <a href="tel:9924773844">9924773844</a>
-                                <br> Nayan  Bhuva - <a href="tel:9904031258">9904031258</a>
-                            </p>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                @include('layout.sidebar')
             </div>
         </div>
     </section>
