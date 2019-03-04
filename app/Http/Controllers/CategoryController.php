@@ -23,6 +23,15 @@ class CategoryController extends Controller
     }
     public function adminstore(Request $request,User $user)
     {
+        $filename = null;
+		if($request->file('image')) 
+            { 
+                $file = $request->file('image');
+                $filename = str_replace(' ', '_', time(). '_' .$file->getClientOriginalName());
+                $file->storeAs('public/profile_images', $filename);
+                
+            }
+
         $user = new User([
             'name' => $request->name,
             'email'  => $request->email,
@@ -30,6 +39,8 @@ class CategoryController extends Controller
             'location'  => $request->location,
             'education'  => $request->education,
             'notes'  => $request->notes,
+            'images' => $filename,
+            
         ]);
         $user->save();
         
@@ -50,7 +61,14 @@ class CategoryController extends Controller
 
     public function updateadmin(Request $request,User $user)
     {
-        
+        $filename = null;
+		if($request->file('image')) 
+            { 
+                $file = $request->file('image');
+                $filename = str_replace(' ', '_', time(). '_' .$file->getClientOriginalName());
+                $file->storeAs('public/profile_images', $filename);
+                
+            }
 
         $user->update([
             'name'=> $request->name,
