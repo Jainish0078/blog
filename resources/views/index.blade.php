@@ -221,8 +221,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h3 class="tab-title">Keyword</h3>
-							<h1>Cement Precast Paver Block Manufacture, Cement Precast Cover Block Manufacture, 
+							<h3>Cement Precast Paver Block Manufacture, Cement Precast Cover Block Manufacture, 
 								Cement Precast Curb Stone Manufacture, Paver Block Manufacturer in Botad, 
 								Cover Block Manufacturer in Botad, Curb Stone Manufacture in Botad, 
 								Paver Block Manufacturer in Gujarat, Cover Block Manufacturer in Gujarat, 
@@ -230,7 +229,7 @@
 								Cover Block Manufacturer in Lathidad, Curb Stone Manufacture in Lathidad, 
 								Concrete Pavers Manufacture, Pavers Manufacture, Block Paving Manufacture, 
 								Cover Block Manufacture, Concrete Cover Block Manufacturer
-							</h1>
+							</h3>
 					</div>
 				</div>
 			</div>

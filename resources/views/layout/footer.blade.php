@@ -111,18 +111,16 @@
           </div>
         </div>
         <!-- Promotion -->
-        <div class="col-lg-4 col-md-7">
-          <!-- App promotion -->
-          <div class="block-2 app-promotion">
-            <div class="mobile d-flex">
-              <a href="">
-                <!-- Icon -->
-                <img src="{{ asset('images/footer/phone-icon.png')}}" alt="mobile-icon">
-              </a>
-              <p>Click here to call us and Decorate your beautiful home, factory and etc.</p>
+        <div class="col-lg-2 offset-lg-1 col-md-3">
+            <div class="block">
+              <h4>Contact Us</h4>
+              <ul>
+                <li><a href="tel:9924773844">Jagdish Bhuva: 9924773844</a></li>
+                <li><a href="tel:9904459941">Sanjay Patel: 9904459941</a></li>
+                <li><a href="tel:9904031258">Nayan Bhuva: 9904031258</a></li>
+              </ul>
             </div>
-            </div>
-        </div>
+          </div>
       </div>
     </div>
     <!-- Container End -->
