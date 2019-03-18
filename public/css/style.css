@@ -411,7 +411,7 @@ button {
 
 .overly:before {
   content: '';
-  background: rgba(0, 0, 0, 0.51);
+  background: #232F3E;
   position: absolute;
   top: 0;
   left: 0;
@@ -2604,7 +2604,7 @@ form textarea {
 }
 
 .footer {
-  background: #232425;
+  background: #232F3E;
 }
 
 .footer .block h4 {
@@ -2628,7 +2628,7 @@ form textarea {
 .footer .block ul li a {
   display: block;
   font-size: 14px;
-  color: #797979;
+  color: #ffffff;
 }
 
 .footer .block ul li a:hover {
@@ -2676,7 +2676,7 @@ form textarea {
 
 .footer-bottom {
   position: relative;
-  background: #363839;
+  background: #232F3E;
   padding: 25px 0;
 }
 
