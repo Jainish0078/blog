@@ -41,18 +41,18 @@
 						<div class="col-md-3 col-sm-6">
 							<ul class="store-list">
 								<li><a href="#">Botad NagarPalika</a></li>
-								<li><a href="#">1000 bulbs.com</a></li>
-								<li><a href="#">180 packrat.com</a></li>
-								<li><a href="#">3 day blinds</a></li>
+								<li><a href="#">Shreeji Construction</a></li>
+								<li><a href="#">Road and Bulding</a></li>
+								<li><a href="#">GWSSB</a></li>
 							</ul>	
 						</div>
 						<!-- Store List 04 -->
 						<div class="col-md-3 col-sm-6">
 							<ul class="store-list">
-								<li><a href="#">1 - 800 - Got - Junk?</a></li>
-								<li><a href="#">1000 bulbs.com</a></li>
-								<li><a href="#">180 packrat.com</a></li>
-								<li><a href="#">3 day blinds</a></li>
+								<li><a href="#">Ahmedabad Municipal Corporation</a></li>
+								<li><a href="#">Bhavnagar Municipal Corporation</a></li>
+								<li><a href="#">Madhu Cilika Bhavnagar</a></li>
+								<li><a href="#">GETCO</a></li>
 							</ul>	
 						</div>
 					</div>
