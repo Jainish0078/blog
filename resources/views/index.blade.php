@@ -62,7 +62,7 @@
 													<h4 class="card-title"><a href="">Square Block</a></h4>
 													<ul class="list-inline product-meta">
 														<li class="list-inline-item">
-															<a href=""><i class="fa fa-folder-open-o"></i>60 MM</a>
+															<a href=""><i class="fa fa-folder-open-o"></i>60 MM</a><br>
 															<a href=""><i class="fa fa-folder-open-o"></i>Class: Rubber Mold Paver Block </a>
 														</li>
 													</ul>
@@ -95,7 +95,7 @@
 														<h4 class="card-title"><a href="">Cover Block</a></h4>
 														<ul class="list-inline product-meta">
 															<li class="list-inline-item">
-																<a href=""><i class="fa fa-folder-open-o"></i>Size: 20,25,40,45,50 mm</a>
+																<a href=""><i class="fa fa-folder-open-o"></i>Size: 20,25,40,45,50 mm</a><br>
 																<a href=""><i class="fa fa-folder-open-o"></i>Class: Cement Precast</a>
 															</li>
 														</ul>
@@ -128,7 +128,7 @@
 															<h4 class="card-title"><a href="">Zig zag</a></h4>
 															<ul class="list-inline product-meta">
 																<li class="list-inline-item">
-																	<a href=""><i class="fa fa-folder-open-o"></i>Size: 80mm</a>
+																	<a href=""><i class="fa fa-folder-open-o"></i>Size: 80mm</a><br>
 																	<a href=""><i class="fa fa-folder-open-o"></i>Class: Rubber Mold Paver Block </a>
 																</li>
 															</ul>
@@ -161,7 +161,7 @@
 														<h4 class="card-title"><a href="">RCC Pipe</a></h4>
 														<ul class="list-inline product-meta">
 															<li class="list-inline-item">
-																<a href=""><i class="fa fa-folder-open-o"></i>Size: 225mm, 300mm, 450mm, 600mm, 900mm </a>
+																<a href=""><i class="fa fa-folder-open-o"></i>Size: 225mm, 300mm, 450mm, 600mm, 900mm </a><br>
 																<a href=""><i class="fa fa-folder-open-o"></i>Class: np2, np3, Socket pipe </a>
 															</li>
 	
