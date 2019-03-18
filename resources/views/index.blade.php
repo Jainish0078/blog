@@ -1,6 +1,6 @@
 @extends('layout.master')
 
-@section('title' , 'Saurashtra Largest Paver Block and Cover Block Production Unit | Shree Hari Pavers')
+@section('title' , 'Cement Precast - Largest Manufacturer in Gujarat | Shreeharipavers')
 
 @section('content')
 
