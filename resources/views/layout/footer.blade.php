@@ -19,45 +19,39 @@
         <div class="category-slider">
           <!-- Client 01 -->
           <div class="item">
-            <a href="eicher">
+            <a href="{{ asset('reputed-clients')}}">
               <!-- Slider Image -->
               <img src="{{ asset('images/eicher.png')}}" alt="Eicher">
             </a>
           </div>
           <div class="item">
-            <a href="bharat-petroleum">
+            <a href="{{ asset('reputed-clients')}}">
               <!-- Slider Image -->
               <img src="{{ asset('images/bp.png')}}" alt="bharat petroleum">
     
             </a>
           </div>
           <div class="item">
-            <a href="indian-oil-corporation">
+            <a href="{{ asset('reputed-clients')}}">
               <!-- Slider Image -->
               <img src="{{ asset('images/ioc.jpeg')}}" alt="indian oil corporation">
     
             </a>
           </div>
           <div class="item">
-            <a href="reliance">
+            <a href="{{ asset('reputed-clients')}}">
               <!-- Slider Image -->
               <img src="{{ asset('images/reliance2.jpg')}}" alt="reliance">
             </a>
           </div>
           <div class="item">
-            <a href="sky-spintax-pvt-ltd">
+            <a href="{{ asset('reputed-clients')}}">
               <!-- Slider Image -->
               <img src="{{ asset('images/sky.png')}}" alt="sky spintax private limited">
             </a>
           </div>
           
-          <div class="item">
-            <a href="#">
-              <!-- Slider Image -->
-              <i class="fa fa-shopping-bag"></i>
-              <h4>Shopping</h4>
-            </a>
-          </div>
+          
         </div>
         </div>
       </div>
