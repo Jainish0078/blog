@@ -8,8 +8,8 @@
   <meta name="keywords" content="Shree Hari Pavers, Lathidad, Rubber Mould Paverblock, Coverblock, Curbstone, Botad, Paver Block, Blocks, Lathidad">
   <meta name="description" content="Lathidad Shree Hari Pavers are Biggest Manufacturer of Paver Block in Lathidad. We are having 11 years experience in this field. Shree Hari Pavers is a reliable manufacturer, supplier and exporter of Paver Blocks.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>@yield('title') | Shree Hari Pavers</title>
-  
+  <title>@yield('title')</title>
+  <meta property="og:image" content="images/alam.png" />
   
   <!-- FAVICON -->
   <link href="{{ asset('imges/favicon.png')}}" rel="shortcut icon">
