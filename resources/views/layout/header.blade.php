@@ -5,25 +5,34 @@
   <!-- SITE TITTLE -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="Shree Hari Pavers, Lathidad, Rubber Mould Paverblock, Coverblock, Curbstone, Botad, Paver Block, Blocks, Surat">
+  <meta name="description" content="Lathidad Shree Hari Pavers are Biggest Manufacturer of Paver Block in Surat. We are having 3 years experience in this field. Shree Hari Pavers is a reliable manufacturer, supplier and exporter of Paver Blocks.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>@yield('title') | Shree Hari Pavers</title>
   
+  
   <!-- FAVICON -->
-  <link href="img/favicon.png" rel="shortcut icon">
+  <link href="{{imges/favicon.png}}" rel="shortcut icon">
+  
   <!-- PLUGINS CSS STYLE -->
   <!-- <link href="plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet"> -->
+  
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ asset('plugins/bootstrap/css/bootstrap-slider.css')}}">
   <link rel="stylesheet" href="{{ asset('//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css')}}">
+  
   <!-- Font Awesome -->
   <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+  
   <!-- Owl Carousel -->
   <link href="{{ asset('plugins/slick-carousel/slick/slick.css')}}" rel="stylesheet">
   <link href="{{ asset('plugins/slick-carousel/slick/slick-theme.css')}}" rel="stylesheet">
+  
   <!-- Fancy Box -->
   <link href="{{ asset('plugins/fancybox/jquery.fancybox.pack.css')}}" rel="stylesheet">
   <link href="{{ asset('plugins/jquery-nice-select/css/nice-select.css')}}" rel="stylesheet">
+  
   <!-- CUSTOM CSS -->
   <link href="{{ asset('css/style.css')}}" rel="stylesheet">
 
