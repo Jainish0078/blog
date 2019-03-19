@@ -26,6 +26,11 @@
 								<li><a href="#">Vraj Contruction</a></li>
 								<li><a href="#">Aniraj Builder</a></li>
 								<li><a href="#">Sky Spintex Pvt. Ltd.</a></li>
+								<li><a href="#">Om Construction</a></li>
+								<li><a href="#">Swati Construction</a></li>
+								<li><a href="#">Babra Nagarpalika</a></li>
+								<li><a href="#">Gadhada Nagarpalika</a></li>
+								<li><a href="#">Barvala Nagarpalika</a></li>
 							</ul>	
 						</div>
 						<!-- Store List 02 -->
@@ -35,6 +40,11 @@
 								<li><a href="#">Vallabhipur NagarPalika</a></li>
 								<li><a href="#">Damnagar NagarPalika</a></li>
 								<li><a href="#">Morbi NagarPalika</a></li>
+								<li><a href="#">Desai Construction</a></li>
+								<li><a href="#">Aditya Construction</a></li>
+								<li><a href="#">Savarkundla NagarPalika</a></li>
+								<li><a href="#">Talaja NagarPalika</a></li>
+								<li><a href="#">Una NagarPalika</a></li>
 							</ul>	
 						</div>
 						<!-- Store List 03 -->
@@ -43,6 +53,10 @@
 								<li><a href="#">Botad NagarPalika</a></li>
 								<li><a href="#">Shreeji Construction</a></li>
 								<li><a href="#">Road and Bulding</a></li>
+								<li><a href="#">Maruti Construction</a></li>
+								<li><a href="#">Maruti Infrastucture</a></li>
+								<li><a href="#">Mohit Enterprise</a></li>
+								<li><a href="#">Maruti Enterprise</a></li>
 								<li><a href="#">GWSSB</a></li>
 							</ul>	
 						</div>
@@ -52,11 +66,17 @@
 								<li><a href="#">Ahmedabad Municipal Corporation</a></li>
 								<li><a href="#">Bhavnagar Municipal Corporation</a></li>
 								<li><a href="#">Madhu Cilika Bhavnagar</a></li>
+								<li><a href="#">Haresh Construction</a></li>
+								<li><a href="#">Dhandhuka Nagarpalika</a></li>
+								<li><a href="#">Umiya Campus-Lathidad</a></li>
+								<li><a href="#">Aradhana Campus-Botad</a></li>
 								<li><a href="#">GETCO</a></li>
 							</ul>	
 						</div>
+						
 					</div>
 				  </div>
+				  
 				</div>
 			</div>
 		</div>
