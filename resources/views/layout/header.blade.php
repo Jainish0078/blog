@@ -64,8 +64,9 @@
                       <a class="nav-link" href="{{ asset('rcc-pipe')}}">RCC Pipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ asset('cover-block')}}">Cover Block</a>
-                      </li>
+                      <a class="nav-link " href="tel:9924773844" style="
+                      font-size: 20px; color: red;"><i class="fa fa-phone" ></i> 99247-73844</a>
+                    </li>
               </ul>
               {{-- <ul class="navbar-nav ml-auto mt-10">
                 <!-- Login -->

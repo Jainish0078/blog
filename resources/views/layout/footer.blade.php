@@ -109,9 +109,11 @@
             <div class="block">
               <h4>Contact Us</h4>
               <ul>
-                <li><a href="tel:9924773844">Jagdish Bhuva: 9924773844</a></li>
-                <li><a href="tel:9904459941">Sanjay Patel: 9904459941</a></li>
-                <li><a href="tel:9904031258">Nayan Bhuva: 9904031258</a></li>
+                <li>
+                  <a href="tel:9924773844" style="font-size: 20px; color: yellow;">Jagdish Bhuva: 9924773844</a>
+                </li>
+                <li><a href="tel:9904459941" style="font-size: 20px; color: yellow;">Sanjay Patel: 9904459941</a></li>
+                <li><a href="tel:9904031258" style="font-size: 20px; color: yellow;">Nayan Bhuva: 9904031258</a></li>
               </ul>
             </div>
           </div>
